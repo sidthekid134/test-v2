@@ -1,0 +1,155 @@
+{
+  "execution_id": "4612b7e7-df25-4dc3-aeb7-060f2aaa6693",
+  "project_id": "44fd25a8-ab47-4947-870d-7115303a1a83",
+  "status": "done",
+  "run_mode": "shadow",
+  "started_at": "2025-11-18T05:33:12.454280",
+  "ended_at": "2025-11-18T05:33:22.364838",
+  "duration_seconds": 9.910558,
+  "coordinator_branch": "execution/44fd25a8-ab47-4947-870d-7115303a1a83-4612b7e7",
+  "intent_ids": [
+    "64715c02-74d2-41c0-8f30-5761977bd281"
+  ],
+  "intents": [
+    {
+      "id": "64715c02-74d2-41c0-8f30-5761977bd281",
+      "name": "First intent",
+      "description": ""
+    }
+  ],
+  "stories": [
+    {
+      "story_id": "ccef72a7-420d-4f5a-9b42-9dd7c4ac535f",
+      "intent_id": "64715c02-74d2-41c0-8f30-5761977bd281",
+      "objective": "Test 1",
+      "execution_data": {
+        "status": "planned",
+        "run_id": "4612b7e7-df25-4dc3-aeb7-060f2aaa6693",
+        "run_mode": "shadow",
+        "started_at": null,
+        "ended_at": null,
+        "agent_id": null
+      }
+    }
+  ],
+  "summary": {
+    "final_pr_url": "https://github.com/sidthekid134/test-v2/pull/20",
+    "final_pr_number": 20,
+    "final_pr_base": "main-copy",
+    "final_pr_head": "execution/44fd25a8-ab47-4947-870d-7115303a1a83-4612b7e7"
+  },
+  "events": [
+    {
+      "id": "8d6b41b3-e67a-4bb2-89d0-60091d51d7b7",
+      "kind": "run.started",
+      "payload": {
+        "intent_id": "64715c02-74d2-41c0-8f30-5761977bd281",
+        "run_id": "4612b7e7-df25-4dc3-aeb7-060f2aaa6693",
+        "mode": "shadow"
+      },
+      "timestamp": "2025-11-18T05:33:14.220437"
+    },
+    {
+      "id": "c2825ed9-9137-48e9-9ede-b774884a1153",
+      "kind": "intent.ready.github",
+      "payload": {
+        "intent_id": "64715c02-74d2-41c0-8f30-5761977bd281",
+        "run_id": "4612b7e7-df25-4dc3-aeb7-060f2aaa6693",
+        "mode": "shadow",
+        "base_repo_url": "https://github.com/sidthekid134/test-v2",
+        "base_branch": "main-copy",
+        "coordinator_branch": "execution/44fd25a8-ab47-4947-870d-7115303a1a83-4612b7e7",
+        "github_token": "[REDACTED]",
+        "shadow_delay_ms": null
+      },
+      "timestamp": "2025-11-18T05:33:14.225649"
+    },
+    {
+      "id": "5bfdbd89-4af8-48de-b7c0-155375949057",
+      "kind": "story.ready.github",
+      "payload": {
+        "story_id": "ccef72a7-420d-4f5a-9b42-9dd7c4ac535f",
+        "title": "Test 1",
+        "manager_id": "manager-1",
+        "intent_branch": "intent/64715c02-74d2-41c0-8f30-5761977bd281-4612b7e7",
+        "github_repo_url": "https://github.com/sidthekid134/test-v2",
+        "github_token": "[REDACTED]",
+        "intent_id": "64715c02-74d2-41c0-8f30-5761977bd281",
+        "intent_name": "First intent",
+        "run_id": "4612b7e7-df25-4dc3-aeb7-060f2aaa6693",
+        "run_mode": "shadow",
+        "shadow_delay_ms": null
+      },
+      "timestamp": "2025-11-18T05:33:14.790515"
+    },
+    {
+      "id": "1b727a97-9978-4ab5-baca-6a30adfb3ffa",
+      "kind": "story.started",
+      "payload": {
+        "story_id": "ccef72a7-420d-4f5a-9b42-9dd7c4ac535f",
+        "run_id": "4612b7e7-df25-4dc3-aeb7-060f2aaa6693",
+        "engineer_id": "shadow-engineer-1",
+        "agent_name": "shadow-engineer-1",
+        "specialist": null,
+        "story_objective": "Test 1"
+      },
+      "timestamp": "2025-11-18T05:33:14.795354"
+    },
+    {
+      "id": "0d646d1c-51f4-46c2-836b-23f02b0ee3f0",
+      "kind": "story.completed.git",
+      "payload": {
+        "story_id": "ccef72a7-420d-4f5a-9b42-9dd7c4ac535f",
+        "engineer_id": "shadow-engineer-1",
+        "success": true,
+        "agent_name": "shadow-engineer-1",
+        "specialist": null,
+        "story_objective": "Test 1",
+        "manager_id": "manager-1",
+        "pr_result": {
+          "pr_number": 18,
+          "pr_url": "https://github.com/sidthekid134/test-v2/pull/18",
+          "src_branch": "story/ccef72a7-420d-4f5a-9b42-9dd7c4ac535f-4612b7e7",
+          "dst_branch": "intent/64715c02-74d2-41c0-8f30-5761977bd281-4612b7e7"
+        },
+        "story_branch": "story/ccef72a7-420d-4f5a-9b42-9dd7c4ac535f-4612b7e7"
+      },
+      "timestamp": "2025-11-18T05:33:16.973355"
+    },
+    {
+      "id": "e9358a69-8396-4099-9932-574eb39f1ade",
+      "kind": "intent.completed.git",
+      "payload": {
+        "intent_id": "64715c02-74d2-41c0-8f30-5761977bd281",
+        "manager_id": "manager-1",
+        "intent_branch": "intent/64715c02-74d2-41c0-8f30-5761977bd281-4612b7e7",
+        "pr_url": "https://github.com/sidthekid134/test-v2/pull/19",
+        "pr_number": 19,
+        "pr_merged": true,
+        "merge_commit_sha": "8213a827d0a9cfd798db4d30af9e2da552bdff63",
+        "captured_at": "2025-11-18T05:33:21.220968+00:00"
+      },
+      "timestamp": "2025-11-18T05:33:21.221354"
+    },
+    {
+      "id": "f6ba938d-7fca-4d00-bb99-b1a6468c6518",
+      "kind": "final_pr.created",
+      "payload": {
+        "pr_url": "https://github.com/sidthekid134/test-v2/pull/20",
+        "pr_number": 20,
+        "base_branch": "main-copy",
+        "head_branch": "execution/44fd25a8-ab47-4947-870d-7115303a1a83-4612b7e7"
+      },
+      "timestamp": "2025-11-18T05:33:22.370862"
+    },
+    {
+      "id": "787f34a8-43e9-4826-a4a9-287b09507d74",
+      "kind": "run.completed",
+      "payload": {
+        "run_id": "4612b7e7-df25-4dc3-aeb7-060f2aaa6693",
+        "project_id": "44fd25a8-ab47-4947-870d-7115303a1a83"
+      },
+      "timestamp": "2025-11-18T05:33:22.394490"
+    }
+  ]
+}
