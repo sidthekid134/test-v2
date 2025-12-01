@@ -2,7 +2,7 @@ from sqlmodel import Session, SQLModel, create_engine
 import os
 
 # Create SQLite database URL
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./eleven.db")
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./eleven_twelve.db")
 
 # Create SQLite engine
 engine = create_engine(
