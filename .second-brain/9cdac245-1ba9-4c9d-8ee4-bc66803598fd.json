@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "execution_id": "9cdac245-1ba9-4c9d-8ee4-bc66803598fd",
+  "project_id": "c71d7c85-07ae-4b1e-8446-44080e39f6c7",
+  "base_branch": "main-copy",
+  "coordinator_branch": "execution/c71d7c85-07ae-4b1e-8446-44080e39f6c7-9cdac245",
+  "status": "done",
+  "started_at": "2025-12-01T05:30:37.932025",
+  "ended_at": "2025-12-01T05:30:38.784637",
+  "duration_seconds": 0.852612,
+  "intents": [
+    {
+      "id": "b5728054-4548-498f-852c-cdd458d10d14",
+      "name": "First Intent",
+      "description": "",
+      "dependencies": [],
+      "pr": {
+        "number": 62,
+        "url": "https://github.com/sidthekid134/test-v2/pull/62",
+        "merged": false
+      },
+      "stories": [
+        {
+          "id": "4818efd5-0de4-4a68-9ac2-313ef7dc8699",
+          "objective": "11",
+          "status": "planned",
+          "pr_url": null,
+          "pr_number": null,
+          "duration_seconds": null
+        },
+        {
+          "id": "93ca36b0-8e0c-48c8-8449-16a87e0cb265",
+          "objective": "12",
+          "status": "planned",
+          "pr_url": null,
+          "pr_number": null,
+          "duration_seconds": null
+        }
+      ],
+      "summary": {
+        "total_stories": 2,
+        "completed": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_intents": 1,
+    "total_stories": 2
+  }
+}
