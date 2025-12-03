@@ -10,14 +10,6 @@
 
 *Patterns discovered from story execution:*
 
-### Implemented a basic authentication middleware for validating JSON Web Tokens (JWT) in a FastAPI application
-
-**Technologies Used:** Python, FastAPI, PyJWT  
-**Key Files:**  
-- `backend/middleware/auth.py`
-- `backend/config/settings.py`
-- `backend/models/user.py`
-
 ### Implemented authentication middleware for validating JSON Web Tokens (JWT) in a FastAPI application
 
 **Technologies Used:** Python, FastAPI, PyJWT, Pydantic  
@@ -25,6 +17,14 @@
 - `backend/middleware/auth.py`
 - `backend/models/user.py`
 - `backend/services/token_service.py`
+
+### Implemented a basic authentication middleware for validating JSON Web Tokens (JWT) in a FastAPI application
+
+**Technologies Used:** Python, FastAPI, PyJWT  
+**Key Files:**  
+- `backend/middleware/auth.py`
+- `backend/config/settings.py`
+- `backend/models/user.py`
 
 ---
 
