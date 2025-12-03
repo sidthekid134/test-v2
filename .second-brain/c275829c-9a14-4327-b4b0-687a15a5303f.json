@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "execution_id": "c275829c-9a14-4327-b4b0-687a15a5303f",
+  "project": {
+    "id": "f4a92dd1-b16e-49b9-b3fe-91b9e0e85c79",
+    "name": "test",
+    "description": "",
+    "base_repo_url": "https://github.com/sidthekid134/test-v2",
+    "base_branch": "main-copy",
+    "github_installation_id": 88644933
+  },
+  "execution": {
+    "run_id": "c275829c-9a14-4327-b4b0-687a15a5303f",
+    "run_mode": "shadow",
+    "status": "done",
+    "coordinator_branch": "execution/f4a92dd1-b16e-49b9-b3fe-91b9e0e85c79-c275829c",
+    "started_at": "2025-12-03T04:14:03.781951",
+    "ended_at": "2025-12-03T04:14:04.545687",
+    "duration_seconds": 0.763736,
+    "historical_plan_id": "f4a92dd1-b16e-49b9-b3fe-91b9e0e85c79-restart-20251202-231403",
+    "parent_run_id": null,
+    "final_pr_number": null,
+    "final_pr_url": null
+  },
+  "intents": [
+    {
+      "id": "dcf46bb6-fc4a-4692-b92e-1fdc3c7cc9ce",
+      "name": "First Intent",
+      "description": "",
+      "dependencies": [],
+      "created_at": "2025-12-03T03:47:39.915376",
+      "updated_at": "2025-12-03T04:14:27.514192",
+      "pr_snapshot": {
+        "pr_number": 114,
+        "pr_url": "https://github.com/sidthekid134/test-v2/pull/114",
+        "pr_merged": false,
+        "merge_commit_sha": "4a2e04b0f97d52a05adbdcc6da971c42eae55982",
+        "captured_at": "2025-12-03T04:14:27.508261+00:00"
+      },
+      "stories": [
+        {
+          "id": "582bd929-2f9c-445d-9547-058d7de37873",
+          "objective": "11",
+          "workstream_id": "workstream-first-intent",
+          "acceptance_criteria": [
+            "11"
+          ],
+          "implementation_notes": [
+            "11"
+          ],
+          "dependencies": [],
+          "complexity_score": 1,
+          "estimated_tokens": 5000,
+          "created_at": "2025-12-03T03:47:41.272000",
+          "updated_at": "2025-12-03T04:14:17.441079",
+          "execution": {
+            "status": "done",
+            "run_id": "c275829c-9a14-4327-b4b0-687a15a5303f",
+            "run_mode": "shadow",
+            "started_at": "2025-12-03T04:14:06.113921+00:00",
+            "ended_at": "2025-12-03T04:14:17.440457+00:00",
+            "duration_seconds": 11.326536,
+            "agent_id": "shadow-engineer-1",
+            "agent_name": "shadow-engineer-1",
+            "branch": "story/582bd929-2f9c-445d-9547-058d7de37873-c275829c",
+            "commit_sha": null,
+            "pr_number": 113,
+            "pr_url": "https://github.com/sidthekid134/test-v2/pull/113",
+            "pr_status": "opened",
+            "result": null,
+            "error_message": null,
+            "files_modified": null,
+            "lines_added": null,
+            "lines_removed": null,
+            "messages_count": null,
+            "retry_count": 0
+          }
+        }
+      ],
+      "summary": {
+        "total_stories": 1,
+        "completed": 1,
+        "failed": 0,
+        "in_progress": 0,
+        "planned": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_intents": 1,
+    "completed_intents": 1,
+    "total_stories": 1,
+    "completed_stories": 1,
+    "failed_stories": 0,
+    "in_progress_stories": 0,
+    "planned_stories": 0,
+    "completion_percentage": 100.0
+  }
+}
