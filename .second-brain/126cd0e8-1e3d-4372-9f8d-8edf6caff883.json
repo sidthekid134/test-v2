@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "execution_id": "126cd0e8-1e3d-4372-9f8d-8edf6caff883",
+  "project": {
+    "id": "0eacc486-d5cc-4fe5-bcfc-dc9cf0a494b1",
+    "name": "Test",
+    "description": "",
+    "base_repo_url": "https://github.com/sidthekid134/test-v2",
+    "base_branch": "main-copy",
+    "github_installation_id": 88644933
+  },
+  "execution": {
+    "run_id": "126cd0e8-1e3d-4372-9f8d-8edf6caff883",
+    "run_mode": "shadow",
+    "status": "done",
+    "coordinator_branch": "execution/0eacc486-d5cc-4fe5-bcfc-dc9cf0a494b1-126cd0e8",
+    "started_at": "2025-12-03T03:18:31.638668",
+    "ended_at": "2025-12-03T03:18:32.354956",
+    "duration_seconds": 0.716288,
+    "historical_plan_id": "0eacc486-d5cc-4fe5-bcfc-dc9cf0a494b1-restart-20251202-221831",
+    "parent_run_id": null,
+    "final_pr_number": null
+  },
+  "intents": [
+    {
+      "id": "aa2d93d0-c7bf-4707-aed8-ba0eb838a63c",
+      "name": "11",
+      "description": "",
+      "dependencies": [],
+      "created_at": "2025-12-03T02:38:49.394653",
+      "updated_at": "2025-12-03T03:19:09.224682",
+      "pr_snapshot": {
+        "pr_number": 89,
+        "pr_url": "https://github.com/sidthekid134/test-v2/pull/89",
+        "pr_merged": false,
+        "merge_commit_sha": "0a1b84b98170a80e14b65543f75076ead8dc929e",
+        "captured_at": "2025-12-03T03:19:09.223395+00:00"
+      },
+      "stories": [
+        {
+          "id": "a4a0858a-dcd8-4b8a-bfe7-69c4bf733ac4",
+          "objective": "11",
+          "workstream_id": "workstream-11",
+          "acceptance_criteria": [
+            "11"
+          ],
+          "implementation_notes": [
+            "11"
+          ],
+          "dependencies": [],
+          "complexity_score": 1,
+          "estimated_tokens": 5000,
+          "created_at": "2025-12-03T02:38:51.553000",
+          "updated_at": "2025-12-03T03:18:45.753577",
+          "execution": {
+            "status": "planned",
+            "run_id": "126cd0e8-1e3d-4372-9f8d-8edf6caff883",
+            "run_mode": "shadow",
+            "started_at": null,
+            "ended_at": null,
+            "duration_seconds": null,
+            "agent_id": null,
+            "agent_name": null,
+            "branch": null,
+            "commit_sha": null,
+            "pr_number": null,
+            "pr_url": null,
+            "pr_status": null,
+            "result": null,
+            "error_message": null,
+            "files_modified": null,
+            "lines_added": null,
+            "lines_removed": null,
+            "messages_count": null,
+            "retry_count": 0
+          }
+        },
+        {
+          "id": "7cfbed79-94f8-44b9-aa90-f4f8b42fa1f4",
+          "objective": "12",
+          "workstream_id": "workstream-11",
+          "acceptance_criteria": [
+            "12"
+          ],
+          "implementation_notes": [
+            "12"
+          ],
+          "dependencies": [
+            {
+              "type": "story",
+              "id": "a4a0858a-dcd8-4b8a-bfe7-69c4bf733ac4"
+            }
+          ],
+          "complexity_score": 1,
+          "estimated_tokens": 5000,
+          "created_at": "2025-12-03T02:39:05.922000",
+          "updated_at": "2025-12-03T03:19:00.374160",
+          "execution": {
+            "status": "planned",
+            "run_id": "126cd0e8-1e3d-4372-9f8d-8edf6caff883",
+            "run_mode": "shadow",
+            "started_at": null,
+            "ended_at": null,
+            "duration_seconds": null,
+            "agent_id": null,
+            "agent_name": null,
+            "branch": null,
+            "commit_sha": null,
+            "pr_number": null,
+            "pr_url": null,
+            "pr_status": null,
+            "result": null,
+            "error_message": null,
+            "files_modified": null,
+            "lines_added": null,
+            "lines_removed": null,
+            "messages_count": null,
+            "retry_count": 0
+          }
+        }
+      ],
+      "summary": {
+        "total_stories": 2,
+        "completed": 0,
+        "failed": 0,
+        "in_progress": 0,
+        "planned": 2
+      }
+    }
+  ],
+  "summary": {
+    "total_intents": 1,
+    "completed_intents": 0,
+    "total_stories": 2,
+    "completed_stories": 0,
+    "failed_stories": 0,
+    "in_progress_stories": 0,
+    "planned_stories": 2,
+    "completion_percentage": 0.0
+  }
+}
