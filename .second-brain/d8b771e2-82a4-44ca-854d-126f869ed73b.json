@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "execution_id": "d8b771e2-82a4-44ca-854d-126f869ed73b",
+  "project": {
+    "id": "f4a92dd1-b16e-49b9-b3fe-91b9e0e85c79",
+    "name": "test",
+    "description": "",
+    "base_repo_url": "https://github.com/sidthekid134/test-v2",
+    "base_branch": "main-copy",
+    "github_installation_id": 88644933
+  },
+  "execution": {
+    "run_id": "d8b771e2-82a4-44ca-854d-126f869ed73b",
+    "run_mode": "shadow",
+    "status": "done",
+    "coordinator_branch": "execution/f4a92dd1-b16e-49b9-b3fe-91b9e0e85c79-d8b771e2",
+    "started_at": "2025-12-03T05:28:37.163113",
+    "ended_at": "2025-12-03T05:29:24.865999",
+    "duration_seconds": 47.702886,
+    "historical_plan_id": "f4a92dd1-b16e-49b9-b3fe-91b9e0e85c79-20251203-002837",
+    "parent_run_id": "92937e2c-d97d-4013-a7e3-9cf4b94b56c4",
+    "final_pr_number": 129,
+    "final_pr_url": "https://github.com/sidthekid134/test-v2/pull/129"
+  },
+  "intents": [
+    {
+      "id": "f483ef36-e098-41ba-bb7f-b00d332bf48b",
+      "name": "Third",
+      "description": "",
+      "dependencies": [],
+      "created_at": "2025-12-03T05:13:09.581786",
+      "updated_at": "2025-12-03T05:29:23.900672",
+      "pr_snapshot": {
+        "pr_number": 128,
+        "pr_url": "https://github.com/sidthekid134/test-v2/pull/128",
+        "pr_merged": false,
+        "merge_commit_sha": "31dfee03c3b67d369bb51261ff667a193d2150b8",
+        "captured_at": "2025-12-03T05:29:23.897498+00:00"
+      },
+      "stories": [
+        {
+          "id": "2df7a853-2a47-4863-81e1-35944aba44a4",
+          "objective": "New Story",
+          "workstream_id": "workstream-third",
+          "acceptance_criteria": [],
+          "implementation_notes": [],
+          "dependencies": [],
+          "complexity_score": 1,
+          "estimated_tokens": 5000,
+          "created_at": "2025-12-03T05:13:35.342000",
+          "updated_at": "2025-12-03T05:28:51.913381",
+          "execution": {
+            "status": "done",
+            "run_id": "d8b771e2-82a4-44ca-854d-126f869ed73b",
+            "run_mode": "shadow",
+            "started_at": "2025-12-03T05:28:39.644011+00:00",
+            "ended_at": "2025-12-03T05:28:51.913148+00:00",
+            "duration_seconds": 12.262329,
+            "agent_id": "shadow-engineer-1",
+            "agent_name": "shadow-engineer-1",
+            "branch": "story/2df7a853-2a47-4863-81e1-35944aba44a4-d8b771e2",
+            "commit_sha": null,
+            "pr_number": 125,
+            "pr_url": "https://github.com/sidthekid134/test-v2/pull/125",
+            "pr_status": "opened",
+            "result": null,
+            "error_message": null,
+            "files_modified": null,
+            "lines_added": null,
+            "lines_removed": null,
+            "messages_count": null,
+            "retry_count": 0
+          }
+        },
+        {
+          "id": "4b94d6b9-facb-417b-bd67-e766a215928e",
+          "objective": "New Story",
+          "workstream_id": "workstream-third",
+          "acceptance_criteria": [],
+          "implementation_notes": [],
+          "dependencies": [
+            {
+              "type": "story",
+              "id": "2df7a853-2a47-4863-81e1-35944aba44a4"
+            }
+          ],
+          "complexity_score": 1,
+          "estimated_tokens": 5000,
+          "created_at": "2025-12-03T05:13:38.541000",
+          "updated_at": "2025-12-03T05:29:02.994225",
+          "execution": {
+            "status": "done",
+            "run_id": "d8b771e2-82a4-44ca-854d-126f869ed73b",
+            "run_mode": "shadow",
+            "started_at": "2025-12-03T05:28:51.909278+00:00",
+            "ended_at": "2025-12-03T05:29:02.993641+00:00",
+            "duration_seconds": 11.073864,
+            "agent_id": "shadow-engineer-1",
+            "agent_name": "shadow-engineer-1",
+            "branch": "story/4b94d6b9-facb-417b-bd67-e766a215928e-d8b771e2",
+            "commit_sha": null,
+            "pr_number": 126,
+            "pr_url": "https://github.com/sidthekid134/test-v2/pull/126",
+            "pr_status": "opened",
+            "result": null,
+            "error_message": null,
+            "files_modified": null,
+            "lines_added": null,
+            "lines_removed": null,
+            "messages_count": null,
+            "retry_count": 0
+          }
+        },
+        {
+          "id": "fe5816a2-74ed-43dc-a021-8a7d56696845",
+          "objective": "New Story",
+          "workstream_id": "workstream-third",
+          "acceptance_criteria": [],
+          "implementation_notes": [],
+          "dependencies": [
+            {
+              "type": "story",
+              "id": "4b94d6b9-facb-417b-bd67-e766a215928e"
+            }
+          ],
+          "complexity_score": 1,
+          "estimated_tokens": 5000,
+          "created_at": "2025-12-03T05:27:58.108000",
+          "updated_at": "2025-12-03T05:29:12.700769",
+          "execution": {
+            "status": "done",
+            "run_id": "d8b771e2-82a4-44ca-854d-126f869ed73b",
+            "run_mode": "shadow",
+            "started_at": "2025-12-03T05:29:02.989550+00:00",
+            "ended_at": "2025-12-03T05:29:12.700486+00:00",
+            "duration_seconds": 9.710936,
+            "agent_id": "shadow-engineer-1",
+            "agent_name": "shadow-engineer-1",
+            "branch": "story/fe5816a2-74ed-43dc-a021-8a7d56696845-d8b771e2",
+            "commit_sha": null,
+            "pr_number": 127,
+            "pr_url": "https://github.com/sidthekid134/test-v2/pull/127",
+            "pr_status": "opened",
+            "result": null,
+            "error_message": null,
+            "files_modified": null,
+            "lines_added": null,
+            "lines_removed": null,
+            "messages_count": null,
+            "retry_count": 0
+          }
+        }
+      ],
+      "summary": {
+        "total_stories": 3,
+        "completed": 3,
+        "failed": 0,
+        "in_progress": 0,
+        "planned": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_intents": 1,
+    "completed_intents": 1,
+    "total_stories": 3,
+    "completed_stories": 3,
+    "failed_stories": 0,
+    "in_progress_stories": 0,
+    "planned_stories": 0,
+    "completion_percentage": 100.0
+  }
+}
