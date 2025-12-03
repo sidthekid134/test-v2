@@ -10,17 +10,17 @@
 
 *Patterns discovered from story execution:*
 
+### Completed authentication middleware implementation with JWT token validation
+
+**Technologies Used:** Python, FastAPI, PyJWT  
+**Key Files:**  
+- `backend/middleware/auth.py`
+- `backend/routes/auth.py`
+- `backend/models/user.py`
+
 ### Completed a minor update to an authentication-related file, likely adjusting a single line of code
 
 **Technologies Used:** Markdown, Git  
-
-### Implemented authentication middleware for validating JSON Web Tokens (JWT) in a FastAPI application
-
-**Technologies Used:** Python, FastAPI, PyJWT, Pydantic  
-**Key Files:**  
-- `backend/middleware/auth.py`
-- `backend/models/user.py`
-- `backend/services/token_service.py`
 
 ---
 
