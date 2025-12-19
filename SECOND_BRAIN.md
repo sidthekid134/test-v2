@@ -12,12 +12,53 @@
 
 ### Implemented a complete FastAPI endpoint for managing story item 11 with database integration and testing
 
-**Technologies Used:** Python, FastAPI, SQLAlchemy, Pydantic, pytest  
+**Technologies Used:** Python, FastAPI, SQLModel, Pydantic, pytest  
 **Key Files:**  
 - `app/routers/eleven.py`
 - `app/models/eleven.py`
 - `app/config/database.py`
 - `tests/test_eleven.py`
+
+#### 📋 Patterns Documented
+
+1. **SQLModel Schema Pattern**
+   - Base model class provides shared fields and validation rules
+   - Table model extends the base for database persistence
+   - Create model for input validation on creation endpoints
+   - Read model for response formatting with required fields
+   - Example: `ElevenBase`, `Eleven`, `ElevenCreate`, and `ElevenRead` models
+
+2. **Dependency Injection Pattern**
+   - Database sessions injected via FastAPI dependency system
+   - Facilitates testing by enabling dependency override
+   - Example: `session: Session = Depends(get_session)` in route handlers
+
+3. **Repository Pattern**
+   - CRUD operations are encapsulated in route handlers
+   - Database operations separated from business logic
+   - Example: `session.exec(select(Eleven).offset(skip).limit(limit)).all()`
+
+4. **Testing Patterns**
+   - In-memory SQLite database for testing
+   - Test database session fixture with isolation
+   - Test client fixture for API endpoint testing
+   - Tests for each CRUD operation verify both API response and database state
+
+5. **RESTful API Pattern**
+   - Standard CRUD operations mapped to HTTP methods
+   - GET for retrieval, POST for creation
+   - Proper status codes: 200 for success, 201 for creation, 404 for not found
+   - Query parameters for pagination (skip, limit)
+
+6. **Representation Pattern**
+   - Multiple representations of "11": numeric, string, binary, hex, etc.
+   - Stateless constant value endpoint (`/eleven/value`)
+   - Dynamic pattern representation endpoint (`/eleven/pattern`)
+
+7. **Data Model Pattern**
+   - Integer value field with default of 11
+   - Optional description field for metadata
+   - Auto-incrementing primary key
 
 ---
 
