@@ -10,12 +10,6 @@
 
 *Patterns discovered from story execution:*
 
-### Completed a minor update to an existing authentication-related file
-
-**Technologies Used:** Markdown, Git  
-**Key Files:**  
-- `11_f2ea4d1a.md`
-
 ### Completed authentication middleware implementation with JWT token validation
 
 **Technologies Used:** Python, FastAPI, PyJWT  
@@ -23,6 +17,12 @@
 - `backend/middleware/auth.py`
 - `backend/routes/auth.py`
 - `backend/models/user.py`
+
+### Completed a minor update to an existing authentication-related file
+
+**Technologies Used:** Markdown, Git  
+**Key Files:**  
+- `11_f2ea4d1a.md`
 
 ---
 
